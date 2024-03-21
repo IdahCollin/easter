@@ -42,7 +42,7 @@ export const LottieOne = () => {
                 autoplay={options.autoplay}
             //To show console message for every loop onLoopComplete={options.loopComplete}
             />
-            <div>
+            <div>Please, no bouncing eggs!<br></br>
                 <button onClick={handlePlay}>Start</button>
                 <button onClick={handleStop}>Stop</button>
             </div>
