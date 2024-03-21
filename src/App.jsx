@@ -21,21 +21,20 @@ export const App = () => {
 
   return (
     <>
-      <label>
-        <input
-          type="checkbox"
-          checked={prefersReducedMotion}
-          onChange={(e) => setPrefersReducedMotion(e.target.checked)}
-        />
-        Please, give me reduced motion!
-      </label>
       <BrowserRouter>
         <main>
           <Header />
           <Routes>{routes}</Routes>
         </main>
       </BrowserRouter>
-
+      <label>
+        <input
+          type="checkbox"
+          checked={prefersReducedMotion}
+          onChange={(e) => setPrefersReducedMotion(e.target.checked)}
+        />
+        One background is plenty enough!
+      </label>
     </>
   );
 };
