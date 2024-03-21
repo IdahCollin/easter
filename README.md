@@ -1,3 +1,5 @@
-# React + Vite
+# Easter animations
 
-This template provides a minimal setup to get React working in Vite.
+Playground for easter animations enabling the user to choose weather the animations should be shown or not.
+
+The template used provided a minimal setup to get React working in Vite.

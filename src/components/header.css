@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+
+.header a {
+    color: black;
+    text-decoration: none;
+}
+
+.header nav ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15%;
+    list-style: none;
+    padding-top: 4%;
+}
+
+
+/* ---------TABLET VIEW---------- */
+@media (min-width: 667px) and (max-width: 1024px) {
+
+    .header nav ul {
+        gap: 50%;
+    }
+}
+
+/* ---------DESKTOP VIEW---------- */
+@media (min-width: 1025px) {
+    .header nav ul {
+        gap: 70%;
+    }
+
+}
