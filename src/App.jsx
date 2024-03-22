@@ -27,14 +27,14 @@ export const App = () => {
           <Routes>{routes}</Routes>
         </main>
       </BrowserRouter>
-      <label>
-        <input
+      <div className="centered-label"><label>
+        One background is plenty enough!<input
           type="checkbox"
           checked={prefersReducedMotion}
           onChange={(e) => setPrefersReducedMotion(e.target.checked)}
         />
-        One background is plenty enough!
-      </label>
+
+      </label></div>
     </>
   );
 };
