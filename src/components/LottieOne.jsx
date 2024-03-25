@@ -58,13 +58,13 @@ export const LottieOne = () => {
                             </path>
                         </pattern>
                     </defs>
-                    <text textAnchor="middle" x="50" y="15" fontSize="17" fill="white" fillOpacity="0.1">Happy Easter!</text>
+                    <text textAnchor="middle" x="50" y="15" fontSize="17" fill="white" fillOpacity="0.2">Happy Easter!</text>
                     <text textAnchor="middle" x="50" y="15" fontSize="17" fill="url(#wave)" fillOpacity="1">Happy Easter!</text>
                 </svg>
             </div>
             <div className="text-buttons">
                 Please, no bouncing eggs or crazy text!
-                <button onClick={isPlaying ? handleStop : handlePlay}>{isPlaying ? "Stop" : "Start"}</button>
+                <button className="play-button" onClick={isPlaying ? handleStop : handlePlay}>{isPlaying ? "Stop" : "Start"}</button>
             </div>
         </div>
     );
